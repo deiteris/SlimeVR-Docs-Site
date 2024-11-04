@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 nav_order: 4
 has_children: true
 ---
@@ -13,5 +14,3 @@ There are currently two ways of uploading your firmware. One is using PlatformIO
 If you're interested in using experimental firmware, you can use the [Butterscotch online firmware flasher](https://slimevr-firmware.bscotch.ca/). If you're using experimental MPU+QMC5883L trackers, or have BMI160 trackers and are interested in using experimental firmware, you can use this site to flash your trackers instead of using PlatformIO.
 
 The guide assumes you have working and complete trackers, and are going to be using the platformio approach. All screenshots are for a Windows based system.
-
-

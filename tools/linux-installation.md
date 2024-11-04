@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 title: SlimeVR on Linux
 parent: Applications and Variants
 nav_order: 4
@@ -51,7 +52,7 @@ async function downloadLatestAdoptium() {
 
   let latestFile = (Array.isArray(latestFiles) ? latestFiles[0] : latestFiles).binary.package.link;
   console.log('Found latest Adoptium release:', latestFile);
-  
+
   window.open(latestFile);
 }
 </script>

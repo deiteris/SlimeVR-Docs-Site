@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 nav_order: 7
 parent: SlimeVR Setup
 ---

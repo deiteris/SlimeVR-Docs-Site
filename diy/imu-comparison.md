@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 nav_order: 4
 parent: DIY Trackers Guide
 ---

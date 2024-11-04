@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 nav_order: 2
 parent: Applications and Variants
 ---
@@ -14,7 +15,7 @@ This guide will help you install and use SlimeVR Wrangler, which allows the use 
 You need bluetooth on your computer.
 * Download and set up [SlimeVR](../server-setup/initial-setup.md)
 * Download [SlimeVR Wrangler](https://github.com/carl-anders/slimevr-wrangler/releases/latest/download/slimevr-wrangler.exe)
-* Start both the SlimeVR server and SlimeVR Wrangler 
+* Start both the SlimeVR server and SlimeVR Wrangler
 * Connect your Joy-Con trackers to the computer ([Guide for Windows](https://www.digitaltrends.com/gaming/how-to-connect-a-nintendo-switch-controller-to-a-pc/))
 * Make sure the SlimeVR Server is running, then press "Search for Joycons" inside SlimeVR Wrangler
 * The Joy-Con should show up in the window!

@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 title: Home
 nav_order: 1
 ---
@@ -46,7 +47,7 @@ You buy the [**official DIY Kit**](https://www.crowdsupply.com/slimevr/slimevr-f
 
 *Prototypes of a SlimeVR Tracker*
 
-You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker). 
+You buy fully built trackers for pre-order at [Crowd Supply](https://www.crowdsupply.com/slimevr/slimevr-full-body-tracker).
 
 **Pros:** A premium build of the SlimeVR trackers with a small footprint with no physical build required.
 

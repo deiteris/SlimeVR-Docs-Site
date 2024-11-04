@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 nav_order: 6
 parent: Applications and Variants
 ---
@@ -27,7 +28,7 @@ Steps to setup:
 1. Log in to shadow pc, install:
 - virtual desktop streamer
 - steam
-- steam vr 
+- steam vr
 - any desired steam vr game
 - the slime vr server
 - virtual here (if you need it if usb forwarding does not work for your shadow client)

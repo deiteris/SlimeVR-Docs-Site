@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 nav_order: 5
 parent: DIY Trackers Guide
 ---
@@ -55,16 +56,16 @@ For Smelties straps the material ELA1300 was used, sadly this material isn't rea
 This material can be found at LeDuc in Europe and various UK based stores.
 It is sometimes referred to as Elastic band for underwear/skirts.
 You can recognize it by the lack of longitudal lines in the material (most elastic bands just have a few rubber threads along the length of the material).
- 
+
 These straps require the following materials:
 
 - ELA1300 50mm Elastic band (Can be substituted)
 - Velcro strips (Preferably without adhesive)
 - 50mm buckles
- 
+
 ![smeltieimg](../assets/img/Smeltie_strap.png)
 ![smeltieimg1](../assets/img/Smeltie_strap1.png)
- 
+
 These straps have one closed end and one end with velcro.
 
 Instructions:

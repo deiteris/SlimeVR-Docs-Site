@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 nav_order: 1
 parent: DIY Trackers Guide
 ---
@@ -123,13 +124,12 @@ If you haven't done a DIY project like this, look up some soldering tutorials on
 <script src="../assets/js/diy.js"></script>
 <style>
     @media (min-width: 50rem) {
-        .main { max-width: 1100px !important; } 
+        .main { max-width: 1100px !important; }
     }
     select {
-        width:250px;        
+        width:250px;
     }
     td:first-of-type {
     border-left: 1px solid #eeebee;
     }
 </style>
-

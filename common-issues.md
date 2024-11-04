@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 nav_order: 8
 ---
 
@@ -16,7 +17,7 @@ So something isn't working and you find yourself stuck, this page is here to giv
 This error indicates there is interference between your computer and the tracker. Check the following:
 1. Make sure your USB cable from the tracker is plugged firmly into your PC.
 1. Make sure that your USB cable is a data and charging cable (it is suggested you try other cables or devices with the cable).
-1. Make sure that your drivers are up to date. 
+1. Make sure that your drivers are up to date.
 
 Additionally, this can be caused by software hogging COM ports (**VSCode and Cura can be the cause of this**).
 
@@ -42,12 +43,12 @@ This is intended behavior, the number of flashes lets you know the current statu
 ## My tracker never connects to Wi-Fi / are not appearing on the SlimeVR Server
 
 The two common issues that cause this error are:
-- Make sure you are connecting to a 2.4GHz network, 5GHz networks are not supported. 
+- Make sure you are connecting to a 2.4GHz network, 5GHz networks are not supported.
 - Check your SSID for special characters. At the time of writing SlimeVR only supports network SSIDs that contain alphanumerical characters.
 
 If all of this is correct, you can check your gateway's list of connected devices to see if all your trackers are connecting. If a tracker is not connecting even after using the same firmware upload with hardcoded wifi details there are two additional steps you can check:
 - Check if your wifi has reached it's maximum allowed wifi connections. You can test this by disconnecting devices and then trying to connect your trackers again.
-- If you hard coded your wifi settings in `platformio.ini` try connecting your trackers via usb and [pushing new wifi details](server-setup/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing. 
+- If you hard coded your wifi settings in `platformio.ini` try connecting your trackers via usb and [pushing new wifi details](server-setup/connecting-trackers.md#connect-trackers). You may find this either fixes your connection or provides you with additional details on why the connection is failing.
 
 ## My aux tracker isn't working
 
@@ -85,7 +86,7 @@ This is usually the result of an issue with the IMU. Plug in your Wemos D1 Mini 
 
 The most common reasons for errors with the IMU are the following:
 1. You accidentally set the IMU wrong (i.e. set as MPU6050 when you have an BNO085)
-1. You accidentally selected the wrong board type (i.e. set as BOARD_SLIMEVR instead of BOARD_WEMOSD1MINI) 
+1. You accidentally selected the wrong board type (i.e. set as BOARD_SLIMEVR instead of BOARD_WEMOSD1MINI)
 1. The wiring is wrong (e.g. accidentally swapping around D1/D2 and SDA/SCL)
 1. There's an issue with the soldering (e.g. not enough solder, cold joint, or bridging between SDA and SCL)
 1. You're using a breadboard (Without soldering connections, the IMU often won't be able to communicate with the microcontroller)
@@ -116,9 +117,9 @@ This will be due to either your physical or bone length set up. Try:
 
 ## Trackers are moving in the wrong direction when I move
 
-- Make sure your mounting orientations for your trackers in the server are correct. (you might have to lie about them for certain setups) 
+- Make sure your mounting orientations for your trackers in the server are correct. (you might have to lie about them for certain setups)
 - You may have specified a wrong `IMU_ROTATION` value in your `defines.h` file. Take note of which trackers are the issue and refer to the [configuring the SlimeVR firmware page](firmware/configuring-project.md#adjust-imu-board-rotation) to get the board's rotation right.
-- If it’s only off by a few degrees, shift your trackers inwards or outwards a bit, then full reset. 
+- If it’s only off by a few degrees, shift your trackers inwards or outwards a bit, then full reset.
 
 ## My avatar floats above the ground
 

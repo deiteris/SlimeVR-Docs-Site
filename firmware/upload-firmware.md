@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 parent: Uploading Tracker Firmware
 nav_order: 3
 ---
@@ -39,7 +40,7 @@ Congratulations! You have now successfully uploaded the firmware to your SlimeVR
 If you have trouble with uploading your firmware over cable check the following:
 1. Make sure your USB cable from the tracker is plugged firmly into your PC.
 1. Make sure that your USB cable is a data and charging cable (it is suggested you try other cables or devices with the cable).
-1. Make sure that your drivers are up to date. 
+1. Make sure that your drivers are up to date.
 
 Additionally, this can be caused by software hogging COM ports (**VSCode and Cura can be the cause of this**).
 
@@ -59,7 +60,7 @@ Once you have successfully connected your trackers to your WiFi, you can use OTA
 1. Change the value of upload_port to the IP address retrieved during the first step (if retrieved for your SlimeVR server you should only copy the set of 4 numbers between the second and third `/`, in the example image above this would be 192.168.1.109).
 1. Turn the tracker you wish to flash off and then on again.
 1. Wait for the tracker to reconnect to the server.
-1. Press the upload button to upload the firmware.<br>  
+1. Press the upload button to upload the firmware.<br>
   ![img](https://i.imgur.com/lI3PFVC.png)
 1. After the upload reaches 100%, wait for the tracker to reconnect to the server again. Turning the device off too soon can result in an incomplete update (bricked until you upload new firmware over USB).
 1. Repeat for as many trackers as you need.

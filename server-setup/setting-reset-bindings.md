@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 nav_order: 6
 parent: SlimeVR Setup
 ---
@@ -138,7 +139,7 @@ Example GIF of adding the Quick Reset binding:
 
 #### Warning
 
-Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension. 
+Currently the SlimeVR server resets the positions the instant the binding is pressed, which is not ideal if you are looking down at your extended arms. However, this can be overcome with a simple AutoHotKey script until a configuration option is added to add a countdown to those bindings. Save this script with a `.ahk` extension.
 
 If you want this script to also start up with Windows, right click it, Create Shortcut, and copy that shortcut to `C:/Users/<YourUsername>/AppData/Roaming/Microsoft/Windows/Start Menu/Programs/Startup`
 

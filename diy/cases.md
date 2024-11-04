@@ -1,5 +1,6 @@
 ---
-layout: page
+layout: redirect
+redirect: https://docs.slimevr.dev
 nav_order: 2
 parent: DIY Trackers Guide
 ---
@@ -80,7 +81,7 @@ The SlimeVR community has built a huge number of cases for style, internals and 
 
 * WeMos D1 Mini
 * SS-12F15(VG6) Micro Slide Switch
-* GY-BNO08X 
+* GY-BNO08X
 * 803040 3.7V 1000mAh Li-Po
 
 [Github](https://github.com/Quantum-Red/QuantumSlimes/releases/tag/V4)
